@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'orbitron';
+    src: url('assets/resources/fonts/Orbitron/Orbitron-VariableFont_wght.ttf') format('truetype');
+}
+
+/*body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #2b2b2b;
+}*/
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+swal-wide {
+    width: 850px !important;
+}
+
+.border-active {
+    border: 4px solid #3DDC16;
+}
+
+.color-dark {
+    color: rgb(46, 46, 46);
+}
+
+.text-border {
+    font-size: 2em;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+
+.small-ff {
+    font-size: 0.4em;
+    vertical-align: top;
+}
+
+.scrollable-div {
+    max-height: 500px;
+    overflow-y: auto; 
+}
+
+.swal2-popup {
+    background-color: #222222 !important; 
+}
+
+.swal2-title {
+    color: white !important; 
+}
+
+.swal2-content {
+    color: white !important; 
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 10px; /* Ajusta la posición vertical del indicador */
+    left: 50%; /* Ajusta la posición horizontal del indicador al centro */
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #333; /* Color del icono */
+    cursor: pointer;
+    display: none; /* Oculta el indicador por defecto */
+}
+
+::-webkit-scrollbar {
+    width: 5px; /* Ancho del scroll */
+    background-color: #0a1537; /* Color de fondo del scroll */
+}
+
+/* Cambia el color de la barra del scroll */
+::-webkit-scrollbar-thumb {
+    background-color: #ce6e32; /* Color de la barra del scroll */
+    border-radius: 6px; /* Radio de borde de la barra del scroll */
+}
+
+/* Cambia el color del fondo del área del scroll cuando se desplaza */
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Color de fondo del área del scroll */
+}
+
+
+.image-container {
+    width: 300px; /* Ancho del contenedor de la imagen */
+    overflow: hidden; /* Esconder la parte de la imagen que se salga del contenedor */
+}
+
+.image-container img {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    transition: transform 0.5s ease; /* Transición suave de medio segundo */
+}
+
+.image-container img:hover {
+    transform: rotate(5deg);
+}
+
+/* sweetalert */
+
+.custom-swal-popup .swal2-icon.swal2-success {
+    font-size: 50px; /* Ajusta este valor según sea necesario */
+    width: 50px;
+    height: 50px;
+  }
+  
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-ring {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-fix {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-circular-line-left,
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-circular-line-right {
+    width: 25px;
+    height: 50px;
+  }
+  
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-line-tip,
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-line-long {
+    height: 5px; /* Ajusta este valor según sea necesario */
+  }
+
+
+@media (min-width: 768px) {
+    .scrollable-div {
+        max-height: 600px; 
+    }
+}
+
+
+@media (max-width: 767px) {
+    .scrollable-div {
+        max-height: 300px;
+    }
+}

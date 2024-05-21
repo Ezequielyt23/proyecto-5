@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Ezequiel">
+    <title>Ezequiel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/dist/css/theme-elements.css">
+    <link rel="stylesheet" href="assets/dist/css/default.css">
+    <link rel="stylesheet" href="assets/vendor/sweetalert/sweetalert.min.css">
+    <link rel="stylesheet" href="assets/dist/css/app.css">
+
+    <link rel="stylesheet" href="assets/dist/css/simple-line-icons.min.css">
+
+    <script src="assets/dist/js/modernizr.min.js"></script>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <div class="body"
+        style="background-image: url('assets/resources/img/background.jpeg');background-size: cover;background-repeat: no-repeat;background-attachment: fixed;background-position: center;min-height: 100vh">
+
+        <div role="main" class="main">
+
+            <div class="container col-sm-12 col-md-8 col-lg-6 p-3">
+
+                <div class="py-3" style="background-color: rgba(0, 0, 0, 0.3)">
+
+                    <div class="text-center mb-2">
+                        <img src="assets/resources/img/freefire.png" alt="Freefire" width="30%">
+                    </div>
+
+                    <div class="row justify-content-center">
+
+
+                    </div>
+
+                    <div class="row justify-content-center sticky-top">
+                        <div class="col-10 col-md-8 col-lg-8">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1"
+                                    style="background-color: rgba(0, 0, 0, 0.6); border: none">
+                                    <img src="assets/resources/img/icon-user.png" width="32px" alt="">
+                                </span>
+                                <input class="form-control text-1 text-white" id="insert-your-id" type="text"
+                                    style="background-color: rgba(0, 0, 0, 0.6);" placeholder="Ingrese su ID" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="d-none nav nav-pills sort-source sort-source-style-3 justify-content-center"
+                        data-sort-id="portfolio" data-option-key="filter"
+                        data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}"></ul>
+
+
+
+                    <div class="tabs tabs-bottom tabs-center tabs-simple">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link text-white" style="cursor: pointer">
+                                    SKINS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link text-white" style="cursor: pointer">
+                                    EMOTES
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a id="item-3" class="nav-link active text-white" style="cursor: pointer">
+                                    RECUPERAR
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="container px-2">
+
+
+                            <div class="featured-box featured-box-primary text-left mt-0">
+                                <div class="box-content">
+
+                                    <h4 class="color-primary font-weight-semibold text-4 text-uppercase mb-0"
+                                        style="font-size: 1rem">
+                                        ¿Cómo vinculaste tu cuenta? <span class="text-danger">*</span>
+                                    </h4>
+
+                                    <form action="#">
+
+                                        <div class="row">
+                                            <div class="col-6 col-md-6 col-lg-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q1flexRadioDefault" id="q1flexRadioDefault1">
+                                                    <label class="form-check-label" for="q1flexRadioDefault1">
+                                                        Google
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-6 col-lg-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q1flexRadioDefault" id="q1flexRadioDefault4">
+                                                    <label class="form-check-label" for="q1flexRadioDefault4">
+                                                        VK
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-6 col-lg-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q1flexRadioDefault" id="q1flexRadioDefault2">
+                                                    <label class="form-check-label" for="q1flexRadioDefault2">
+                                                        Facebook
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-6 col-lg-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q1flexRadioDefault" id="q1flexRadioDefault5">
+                                                    <label class="form-check-label" for="q1flexRadioDefault5">
+                                                        Invitado
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-6 col-lg-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q1flexRadioDefault" id="q1flexRadioDefault3">
+                                                    <label class="form-check-label" for="q1flexRadioDefault3">
+                                                        Twitter
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-6 col-lg-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q1flexRadioDefault" id="q1flexRadioDefault6">
+                                                    <label class="form-check-label" for="q1flexRadioDefault6">
+                                                        No recuerdo
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </form>
+
+                                    <h4 class="color-primary font-weight-semibold text-4 text-uppercase mt-3"
+                                        style="font-size: 1rem">
+                                        Motivo de recuperación <span class="text-danger">*</span>
+                                    </h4>
+
+                                    <form action="#">
+
+                                        <div class="row">
+
+                                            <div class="col-6 col-md-6 col-lg-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q2flexRadioDefault" id="q2flexRadioDefault1">
+                                                    <label class="form-check-label" for="q2flexRadioDefault1">
+                                                        Perdida
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-6 col-lg-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q2flexRadioDefault" id="q2flexRadioDefault2">
+                                                    <label class="form-check-label" for="q2flexRadioDefault2">
+                                                        Robada
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-6 col-lg-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q2flexRadioDefault" id="q2flexRadioDefault3">
+                                                    <label class="form-check-label" for="q2flexRadioDefault3">
+                                                        Baneada
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-6 col-lg-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q2flexRadioDefault" id="q2flexRadioDefault4">
+                                                    <label class="form-check-label" for="q2flexRadioDefault4">
+                                                        Borrada
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </form>
+
+                                    <h4 class="color-primary font-weight-semibold text-4 text-uppercase mt-3"
+                                        style="font-size: 1.1rem">
+                                        ¿Tiempo sin jugar? <span class="text-danger">*</span>
+                                    </h4>
+
+                                    <form action="#">
+
+
+                                        <div class="form-row">
+                                            <div class="col-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q3flexRadioDefault" id="q3flexRadioDefault1">
+                                                    <label class="form-check-label" for="q3flexRadioDefault1">
+                                                        Horas
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q3flexRadioDefault" id="q3flexRadioDefault2">
+                                                    <label class="form-check-label" for="q3flexRadioDefault2">
+                                                        Días
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q3flexRadioDefault" id="q3flexRadioDefault3">
+                                                    <label class="form-check-label" for="q3flexRadioDefault3">
+                                                        Meses
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="q3flexRadioDefault" id="q3flexRadioDefault4">
+                                                    <label class="form-check-label" for="q3flexRadioDefault4">
+                                                        Años
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+                                    <hr>
+
+                                    <p class="lead mt-3">Detalla a continuación <strong>información</strong> que
+                                        recuerdes de tu cuenta:</p>
+                                    <div class="row">
+
+                                        <div class="col-6 col-sm-12">
+                                            <ul>
+                                                <li>Trajes</li>
+                                                <li>Diamantes</li>
+                                                <li>Oro</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 col-sm-12">
+                                            <ul>
+                                                <li>Recargas</li>
+                                                <li>Horario de conexión</li>
+                                                <li>Motivo de baneo</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="font-weight-bold text-dark text-2">Mensaje <span
+                                                class="text-danger">*</span></label>
+                                        <textarea maxlength="500" data-msg-required="Please enter your message."
+                                            rows="3" class="form-control" name="message"
+                                            placeholder="Escribe a continuación..." required=""></textarea>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row justify-content-center my-2">
+                            <button id="recoverAccount" type="button" class="btn btn-dark mt-1"
+                                style="border-radius: 1%; background-color: rgba(33, 187, 120, 0.685)">
+                                <span style="font-size: 1.5rem; font-family: 'orbitron', sans-serif;">RECUPERAR
+                                    CUENTA</span>
+                            </button>
+                        </div>
+
+                        <h4 class="text-center mt-1" style="color: #000">@Ezequiel</h4>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Vendor Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/vendor/libs/common.min.js"></script>
+    <script src="assets/vendor/libs/isotope.min.js"></script>
+    <script src="assets/dist/js/theme.js"></script>
+    <script src="assets/dist/js/init.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/dist/js/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        $('#recoverAccount').on('click', function () {
+            let id = $('#insert-your-id').val();
+
+            if(id == ''){
+                Swal.fire({
+                    icon: "warning",
+                    title: "Atención!",
+                    html: 'Debes ingresar el ID',
+                    showConfirmButton: false,
+                    timer: 3000,
+                });
+            } else {
+                Swal.fire({
+                title: "Buscando ID con la vinculación",
+                html: "Tiempo restante: <b></b>",
+                timer: 4000,
+                timerProgressBar: true,
+                didOpen: () => {
+                    Swal.showLoading();
+                    const timer = Swal.getPopup().querySelector("b");
+                    timerInterval = setInterval(() => {
+                        timer.textContent = `${Swal.getTimerLeft()}`;
+                    }, 100);
+                },
+                willClose: () => {
+                    clearInterval(timerInterval);
+                }
+            }).then((result) => {
+                /* Read more about handling dismissals below */
+                if (result.dismiss === Swal.DismissReason.timer) {
+                    Swal.fire({
+                        title: "Correcto!",
+                        html: "Se ha encontrado el ID con la vinculación de la cuenta.",
+                        icon: "success",
+                        showConfirmButton: false,
+                        timer: 3500,
+                    }).then(() => {
+                        // Aquí puedes abrir la siguiente notificación
+
+                        Swal.fire({
+                            title: "Validando motivo de recuperación",
+                            html: "Tiempo restante: <b></b>",
+                            timer: 4000,
+                            timerProgressBar: true,
+                            didOpen: () => {
+                                Swal.showLoading();
+                                const timer = Swal.getPopup().querySelector("b");
+                                timerInterval = setInterval(() => {
+                                    timer.textContent = `${Swal.getTimerLeft()}`;
+                                }, 100);
+                            },
+                            willClose: () => {
+                                clearInterval(timerInterval);
+                            }
+                        }).then((result) => {
+                            /* Read more about handling dismissals below */
+                            if (result.dismiss === Swal.DismissReason.timer) {
+                                Swal.fire({
+                                    title: "Listo!",
+                                    text: "Información que escribiste en tu cuenta validada.",
+                                    icon: "info",
+                                    showConfirmButton: false,
+                                    timer: 3500,
+                                });
+
+                            };
+                        });
+                    });
+                    ;
+                }
+            });
+            }
+            
+            
+
+        });
+    </script>
+
+
+</body>
+
+</html>
